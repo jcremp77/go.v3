@@ -2,8 +2,14 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/jcremp77/go.v3/utils"
+)
 
 func main() {
 	fmt.Println("Hello Gophers Again!! 😊")
+
+	utils.NameAge()
 }
